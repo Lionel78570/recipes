@@ -1,0 +1,6 @@
+services:
+  - name: strapi
+    env: docker
+    plan: starter
+    buildCommand: npm run build
+    startCommand: npm start
